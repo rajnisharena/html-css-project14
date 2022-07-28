@@ -1,8 +1,3 @@
-# Html project with css and images
+Project 13
 
-## project is learning purpose for free 
-
-
- pushing code to git and github project 11
-
-![badge](https://img.shields.io/badge/HTML-PROJECT-brightgreen)
+continue without media query , withou responsive, 
