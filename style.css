@@ -202,3 +202,108 @@ font-size: 16px!important;
     display: flex;
     align-items: center;
 }
+
+@media only screen and (min-width: 1240px) {
+    .nav-menu-icon{
+        display: none;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .nav-menu-icon{
+        display: block;
+       
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .navbar{
+        display: none;
+    }
+   .nav-menu-icon{
+        display: block;
+        height: 30px;
+    }
+ .main-container{
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 12px;
+    }
+    .left-head{
+        display: flex;
+    align-items: center;
+     
+    flex-direction: row;
+    
+    }
+i{font-size: 39px;
+    background: #d3d1d1;
+    border-radius: 4px;
+    padding: 4px;
+    border: solid 1px #b3afaf;}
+    .logomr{
+        margin-top: -482px;
+    }
+
+    .bar-white{
+        margin-top: -499px;
+        margin-left: 187px;
+    }
+
+    .mid-part {
+        margin-top: 0px;
+    }
+    .mid-wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mrl {
+        margin-left: 12px;
+    }
+    h1 {
+        color: #ffffff;
+        -webkit-text-stroke: 1px #1c1c1c;
+        font-family: 'PT Serif', serif;
+        font-weight: 900;
+        font-size: 56px;
+        margin: 0px;
+    }
+    .text {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        /* width: 58%; */
+        margin-left: 112px;
+        text-align: center;
+    }
+    .mid-part p {
+        font-size: 20px;
+        color: #828282;
+    }
+    .socl{display: flex;
+        justify-content: initial;
+        margin-left: 298px;
+        margin-top: -193px;}
+        .btn-group {
+            text-align: left;
+            margin-left: 80px;
+        }
+        .down-section {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 10px 10px;
+        }
+        .mobileimg{
+            width: 300px;
+        }
+}
